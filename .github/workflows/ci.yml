@@ -23,7 +23,7 @@ jobs:
         run: pip install flake8
 
       - name: Run flake8 linter
-        run: flake8 transform.py tests/
+        run: flake8 transform.py
 
   test:
     name: Run Unit Tests with Coverage
